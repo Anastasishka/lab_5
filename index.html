@@ -1,0 +1,75 @@
+﻿<html>
+    <head>
+        <title>I`m bear</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        
+        <div class="container-1">
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+           <p id="t1">Site them. Me</p> 
+           <p id="t2">Menu</p> 
+        </div>
+
+        <div class="container-2 container-glass">
+            <div class="container-menu-list">
+                <nav>
+                    <ul class="ul">
+                     <li><a href="#">Item 01</a></li>
+                     <li><a href="#">Item 02</a></li>
+                     <li><a href="#">Item 03</a></li>
+                     <li><a href="#">Item 04</a></li>
+                     <li><a href="#">Item 05</a></li>
+                     <li><a href="#">Item 06</a></li>
+                    </ul>
+                 </nav>
+            </div>
+            <div class="icons-list">
+                <i class="fa fa-telegram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+        </div>
+
+        <div class="container-4 container-glass">
+            <p>тут може бути ваша реклама</p>
+            <p>your ad can be here</p>
+            <p>भवतः विज्ञापनम् अत्र भवितुम् अर्हति</p>
+            <p>ir-reklam tiegħek jista' jkun hawn</p>
+        </div>
+        <div class="container-5 container-glass">
+            <input type="text" placeholder="Your name"> 
+            <input type="text"placeholder="Email adress"> 
+            <input type="button" value="Sign me up" class="button"> 
+        </div>
+
+        <div class="container-3 container-glass">
+           <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+            <img src="https://images.unsplash.com/photo-1508057533642-86abf9e06c89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+        </div>
+
+
+        <footer class="container-glass">
+            <p><b>@Anastasia Medvid</b></p><br>
+            <p><i>- А зайця де загубила? ©</i></p>
+        </footer>
+        
+    </body>
+
+    <script>
+        let menu = document.querySelector(".container-2");
+        let button = document.querySelector(".menu-btn");
+
+        button.addEventListener('click', function(){
+            menu.classList.toggle('active');
+        })
+    </script>
+</html>
